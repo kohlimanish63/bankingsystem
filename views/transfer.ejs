@@ -1,0 +1,24 @@
+<%- include("partials/header") -%>
+<main id="transfer" class="mini-container">
+    <div class="wrap">
+        <form action="/transfer" method="POST">
+
+            <label for="customer">Customers</label>
+            <select id="customer" name="customer" required>
+                <option value="select">select</option>
+                <%customers.forEach(function(customer) { %>
+                <option value="<%=  customer._id %>"><%= customer.name %></option>
+
+                <% }) %>
+            </select>
+
+
+            <label for="amount">Amount</label>
+
+            <input type="text" id="amount" name="amount" placeholder="Enter amount" required>
+
+            <button class="btn btn-tf align" type="submit" name="submit">Transfer</button>
+        </form>
+    </div>
+</main>
+<%- include("partials/footer") -%>

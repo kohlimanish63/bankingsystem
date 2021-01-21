@@ -1,0 +1,23 @@
+.l-heading {
+    font-size: 3rem;
+    /* margin-bottom: 0rem; */
+}
+
+.lead {
+    font-size: 1.2rem;
+
+}
+
+.tables {
+    width: 100%;
+}
+
+/* .wrap {
+    width: 900px;
+    margin: auto;
+    padding: 0 3rem;
+} */
+
+.wrap {
+    width: 100%;
+}
