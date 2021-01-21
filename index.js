@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
 
 
-mongoose.connect("mongodb+srv://admin-manish:qweasdzxc@cluster0.zl5nb.mongodb.net/customersDB?retryWrites=true", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://admin-manisd:lklklklk@cluster0.zl5nb.mongodb.net/customersDB?retryWrites=true", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => { console.log("you are connected to mongoDB") })
     .catch((err) => { console.log("Something went wrong", err) })
 
